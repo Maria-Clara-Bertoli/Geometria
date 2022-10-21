@@ -24,7 +24,7 @@ public class Piramide {
 	}
 	
 	public double areaTriangulo() {
-		double area = (Pitagoras() * getAltura())/2;
+		double area = ((getRaio() * getAltura())/2) * 2;
 		return area;
 	}
 	
